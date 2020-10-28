@@ -1,0 +1,49 @@
+
+
+body {
+  color-background: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card_white {
+  background-color: #fff;
+  width: 500px;
+  margin: 24px auto;
+  box-shadow: 0 4px 16px rgb(0,0,0,.1);
+  padding: 24px 56px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.img-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin-left: 24px
+  margin-right: 24px;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+   }
+}
